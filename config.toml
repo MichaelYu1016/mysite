@@ -25,7 +25,7 @@ hasCJKLanguage = true
     bio = "Postgradute"
     location = "China"
     site_description = "somewhere to record the study experience and share some knowledge"
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = "Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
@@ -56,7 +56,7 @@ hasCJKLanguage = true
 
 [[params.menu]]
     before = true
-    label  = "Archives"
+    label  = "Blogs"
     link   = "post/"
 	
 [[params.menu]]
