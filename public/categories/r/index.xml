@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 29 Sep 2017 21:00:00 -0200</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rcpp的初次尝试</title>
+      <link>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</link>
+      <pubDate>Fri, 29 Sep 2017 21:00:00 -0200</pubDate>
+      
+      <guid>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</guid>
+      <description>Rcpp包作为连接R和C++的利器，是广大R语言使用者使用最广泛的拓展包。R语言给我们提供了丰富多样的统计计算函数和最新的统计模型包，但是受</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
