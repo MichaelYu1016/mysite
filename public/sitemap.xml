@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2017-10-01T11:17:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/05/20/markdown-cheat-sheet/</loc>
     <lastmod>2017-05-20T12:10:51+02:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>/2017/05/20/formulas-with-mathjax/</loc>
     <lastmod>2017-05-20T11:58:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2017-05-19T21:49:20+02:00</lastmod>
   </url>
   
   <url>

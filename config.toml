@@ -111,3 +111,6 @@ theme = "hugo-icarus-theme"
     categories = true
     tags = true
     tag_cloud = true
+
+	
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
