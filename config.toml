@@ -1,4 +1,5 @@
 baseurl = "/"
+relativeurls = true
 languageCode = "en-us"
 title = "New Life, Different Fun"
 # Enable comments by entering your Disqus shortname
@@ -9,6 +10,8 @@ googleAnalytics = ""
 paginate = 10
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+hasCJKLanguage = true
 # Comment the themesDir option if you use this theme in production
 
 
@@ -113,4 +116,3 @@ theme = "hugo-icarus-theme"
     tag_cloud = true
 
 	
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

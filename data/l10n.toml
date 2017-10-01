@@ -20,7 +20,7 @@
 [profile]
     follow_button = "Follow"
     tags = "Tags"
-    posts = "Posts"
+    posts = "Blogs"
 
 [page_not_found]
     title = "404 - page not found"
