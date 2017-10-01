@@ -1,5 +1,4 @@
 baseurl = "/"
-relativeurls = true
 languageCode = "en-us"
 title = "New Life, Different Fun"
 # Enable comments by entering your Disqus shortname
@@ -22,7 +21,7 @@ theme = "hugo-icarus-theme"
     author = "Yu Nongxin"
     bio = "Postgradute"
     location = "China"
-    site_description = ""
+    site_description = "somewhere to record the study experience and share some knowledge"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
@@ -53,6 +52,11 @@ theme = "hugo-icarus-theme"
     link   = "/"
 
 [[params.menu]]
+    before = true
+    label  = "Archives"
+    link   = "post/"
+	
+[[params.menu]]
     before = false
     label  = "Tags"
     link   = "tags/"
@@ -61,6 +65,7 @@ theme = "hugo-icarus-theme"
     before = false
     label  = "Categories"
     link   = "categories/"
+
 
 # Enter a link for the follow button on the left
 [params.profile]
