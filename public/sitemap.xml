@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/2017/10/01/%E5%B8%B8%E7%94%A8r%E5%8C%85%E6%95%B4%E7%90%86%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</loc>
     <lastmod>2017-09-29T21:00:00-02:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-09-29T21:00:00-02:00</lastmod>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,19 +41,25 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-09-29T21:00:00-02:00</lastmod>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2017-09-29T21:00:00-02:00</lastmod>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r-markdown/</loc>
     <lastmod>2017-09-29T21:00:00-02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-package/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
