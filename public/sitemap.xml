@@ -8,23 +8,24 @@
   </url>
   
   <url>
-    <loc>/2017/10/01/%E5%B8%B8%E7%94%A8r%E5%8C%85%E6%95%B4%E7%90%86%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</loc>
+    <loc>/blog/2017-10-01-collect-my-r-package/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</loc>
+    <loc>/blog/2017-09-29-first-try-rcpp/</loc>
     <lastmod>2017-09-29T21:00:00-02:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/2015/07/23/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

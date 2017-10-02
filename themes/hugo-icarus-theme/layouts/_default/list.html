@@ -6,7 +6,7 @@
     {{ else }}
     <section class="archives-wrap">
         <div class="archive-category-wrap">
-            <span class="archive-category">{{ .Title }}</span>{{ .Content}}
+            <span class="archive-category">{{ .Title }}</span>
         </div>
         <div class="archives">
             {{ $paginator := .Paginate .Data.Pages }}

@@ -14,28 +14,28 @@
     
     <item>
       <title>常用R包整理（持续更新）</title>
-      <link>/2017/10/01/%E5%B8%B8%E7%94%A8r%E5%8C%85%E6%95%B4%E7%90%86%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</link>
+      <link>/blog/2017-10-01-collect-my-r-package/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/10/01/%E5%B8%B8%E7%94%A8r%E5%8C%85%E6%95%B4%E7%90%86%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</guid>
+      <guid>/blog/2017-10-01-collect-my-r-package/</guid>
       <description>CRAN上已有的R包数量众多，加上GitHub、R-Forge等平台上的R包，为我们提供了各种各样的选择，但是在数目众多的R包中，找到对自己</description>
     </item>
     
     <item>
       <title>Rcpp的初次尝试</title>
-      <link>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</link>
+      <link>/blog/2017-09-29-first-try-rcpp/</link>
       <pubDate>Fri, 29 Sep 2017 21:00:00 -0200</pubDate>
       
-      <guid>/2017/09/29/rcpp%E7%9A%84%E5%88%9D%E6%AC%A1%E5%B0%9D%E8%AF%95/</guid>
+      <guid>/blog/2017-09-29-first-try-rcpp/</guid>
       <description>Rcpp包作为连接R和C++的利器，是广大R语言使用者使用最广泛的拓展包。R语言给我们提供了丰富多样的统计计算函数和最新的统计模型包，但是受</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
