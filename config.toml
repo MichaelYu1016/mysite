@@ -57,7 +57,7 @@ hasCJKLanguage = true
 [[params.menu]]
     before = true
     label  = "Blogs"
-    link   = "post/blogs/"
+    link   = "post/"
 	
 [[params.menu]]
     before = false
