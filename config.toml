@@ -22,7 +22,7 @@ hasCJKLanguage = true
 [params]
     # Tell me who you are
     author = "Yu Nongxin"
-    bio = "Postgradute"
+    bio = "Postgradute-MUC"
     location = "China"
     site_description = "somewhere to record the study experience and share some knowledge"
     copyright  = "Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice)."
@@ -57,7 +57,7 @@ hasCJKLanguage = true
 [[params.menu]]
     before = true
     label  = "Blogs"
-    link   = "post/"
+    link   = "post/blogs/"
 	
 [[params.menu]]
     before = false
