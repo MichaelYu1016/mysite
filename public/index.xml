@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用blogdown拓展包搭建个人主页</title>
+      <link>/blog/2017-10-03-build-my-website/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-10-03-build-my-website/</guid>
+      <description>谢易辉在bookdown的基础上又推出了blogdown拓展包，提供了一套以hugo为基础的个人主页搭建方式，将网站托管在netlify上，</description>
+    </item>
     
     <item>
       <title>常用R包整理（持续更新）</title>

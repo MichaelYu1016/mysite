@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2017-10-03-build-my-website/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2017-10-01T11:17:20+02:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -34,8 +39,14 @@
   </url>
   
   <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +70,7 @@
   
   <url>
     <loc>/tags/r-package/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,7 +88,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/website/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
