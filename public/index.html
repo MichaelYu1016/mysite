@@ -30,7 +30,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-10-03T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-11-03T00:00:00&#43;00:00"/>
 
 
 
@@ -186,12 +186,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        4
+        5
         <span>Blogs</span>
       </div>
       <div class="article-info-block">
         
-          4
+          8
         
         <span>
             Tags
@@ -267,6 +267,151 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="./blog/logistic-regression-in-r/">
+    <h1 class="article-title" itemprop="name">
+        Logistic回归的R实现
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-11-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-03</time>
+            &middot;
+            992
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="./categories/machine-learning">Machine Learning</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="./tags/r">R</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="./tags/logistic-regression">Logistic Regression</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                在统计学习和机器学习中，logistic回归是应用最广泛的一种分类方法，其模型通常针对二分类问题，并且具有较好的解释能力。logistic回
+            </p>
+            <p class="article-more-link">
+                <a href="./blog/logistic-regression-in-r/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="/blog/logistic-regression-in-r/" data-id="99f7f562313da35cf0783db23bf6590a" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -710,7 +855,7 @@
         <header class="article-header">
     <a href="./blog/2015-07-23-r-rmarkdown/">
     <h1 class="article-title" itemprop="name">
-        
+        Hello R Markdown
     </h1>
     </a>
     <div class="article-meta">
@@ -718,7 +863,7 @@
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+            <time datetime="2015-07-23 21:13:14 -0500 -0500" itemprop="datePublished">2015-07-23</time>
             &middot;
             159
             words
@@ -728,7 +873,39 @@
         </div>
         
         
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="./categories/r">R</a>
+                
+                
+            </div>
+            
+        
 
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="./tags/r-markdown">R Markdown</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="./tags/plot">plot</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="./tags/regression">regression</a>
+                
+                
+            </div>
+            
         
     </div>
 </header>
@@ -841,6 +1018,32 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="./blog/logistic-regression-in-r/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="./categories/machine-learning">
+                        Machine Learning
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="./blog/logistic-regression-in-r/" class="title">Logistic回归的R实现</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-11-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-11-03</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="./blog/2017-10-03-build-my-website/" class="thumbnail">
                     
                         <span style="background-image:url(/banners/website.jpg)" alt="New Life, Different Fun" class="thumbnail-image"></span>
@@ -927,9 +1130,18 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 </div>
                 <div class="item-inner">
                     
-                    <p class="item-title"><a href="./blog/2015-07-23-r-rmarkdown/" class="title"></a></p>
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="./categories/r">
+                        R
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="./blog/2015-07-23-r-rmarkdown/" class="title">Hello R Markdown</a></p>
                     <p class="item-date">
-                        <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+                        <time datetime="2015-07-23 21:13:14 -0500 -0500" itemprop="datePublished">2015-07-23</time>
                     </p>
                 </div>
             </li>
@@ -949,10 +1161,18 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
+                <a class="category-list-link" href="./categories/machine-learning">
+                    machine-learning
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
                 <a class="category-list-link" href="./categories/r">
                     r
                 </a>
-                <span class="category-list-count">2</span>
+                <span class="category-list-count">3</span>
             </li>
             
             <li class="category-list-item">
@@ -990,10 +1210,34 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
+                <a class="category-list-link" href="./tags/logistic-regression">
+                    logistic-regression
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="./tags/plot">
+                    plot
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="./tags/r">
+                    r
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
                 <a class="category-list-link" href="./tags/r-markdown">
                     r-markdown
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
             <li class="category-list-item">
@@ -1008,6 +1252,14 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 
                 <a class="category-list-link" href="./tags/rcpp">
                     rcpp
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="./tags/regression">
+                    regression
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1032,6 +1284,15 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         <a href="./tags/hugo" style="font-size: 12px;">hugo</a>
         
         
+        <a href="./tags/logistic-regression" style="font-size: 12px;">logistic-regression</a>
+        
+        
+        <a href="./tags/plot" style="font-size: 12px;">plot</a>
+        
+        
+        <a href="./tags/r" style="font-size: 12px;">r</a>
+        
+        
         <a href="./tags/r-markdown" style="font-size: 12px;">r-markdown</a>
         
         
@@ -1039,6 +1300,9 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         
         
         <a href="./tags/rcpp" style="font-size: 12px;">rcpp</a>
+        
+        
+        <a href="./tags/regression" style="font-size: 12px;">regression</a>
         
     </div>
 </div>
