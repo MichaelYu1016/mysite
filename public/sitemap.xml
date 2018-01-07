@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018-01-07-fall-recruit/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/logistic-regression-in-r/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -34,7 +39,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,7 +68,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -74,14 +79,14 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,6 +123,30 @@
   <url>
     <loc>/categories/website/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%84%9F%E5%8F%97/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%A0%A1%E6%8B%9B/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%A0%A1%E6%8B%9B/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%BB%8F%E9%AA%8C/</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

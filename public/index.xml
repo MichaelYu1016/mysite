@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>秋招有感</title>
+      <link>/blog/2018-01-07-fall-recruit/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2018-01-07-fall-recruit/</guid>
+      <description>2018年秋招已经基本结束了，在实习的同时我也参与了人生中第一次校园招聘季，在这段经历中认识了自己，也收获了很多。 本科毕业时，因为已经打定主</description>
+    </item>
     
     <item>
       <title>Logistic回归的R实现</title>
