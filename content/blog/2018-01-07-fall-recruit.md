@@ -4,7 +4,7 @@ author: "郁农欣"
 date: 2018-01-07
 categories: ["校招"]
 tags: ["校招","经验","感受"]
-banner: "banners/recruit.jpg"
+banner: "banners/recruit.jpeg"
 
 ---
 2018年秋招已经基本结束了，在实习的同时我也参与了人生中第一次校园招聘季，在这段经历中认识了自己，也收获了很多。
