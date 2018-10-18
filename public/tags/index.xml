@@ -6,7 +6,6 @@
     <description>Recent content in Tags on New Day, New Beginning, Up! Up!! Up!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -94,11 +93,29 @@
     </item>
     
     <item>
+      <title>新员工实习</title>
+      <link>/tags/%E6%96%B0%E5%91%98%E5%B7%A5%E5%AE%9E%E4%B9%A0/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%96%B0%E5%91%98%E5%B7%A5%E5%AE%9E%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>校招</title>
       <link>/tags/%E6%A0%A1%E6%8B%9B/</link>
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/%E6%A0%A1%E6%8B%9B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>泉州</title>
+      <link>/tags/%E6%B3%89%E5%B7%9E/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%B3%89%E5%B7%9E/</guid>
       <description></description>
     </item>
     
