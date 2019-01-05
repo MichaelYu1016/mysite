@@ -3,6 +3,6 @@
 .Rhistory
 .RData
 .Ruserdata
-/public
-static/figures
+public
+static/blog
 blogdown
