@@ -6,6 +6,7 @@
     <description>Recent content in Categories on New Day, New Beginning, Up! Up!! Up!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,7 +41,7 @@
     <item>
       <title>工作</title>
       <link>/categories/%E5%B7%A5%E4%BD%9C/</link>
-      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/%E5%B7%A5%E4%BD%9C/</guid>
       <description></description>
