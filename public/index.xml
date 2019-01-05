@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New Day, New Beginning, Up! Up!! Up!!!</title>
-    <link>/</link>
+    <link>https://yunongxin.netlify.com/</link>
     <description>Recent content on New Day, New Beginning, Up! Up!! Up!!!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Yu N.X](https://github.com/MichaelYu1016). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
     <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yunongxin.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>泉州实习季——景点篇</title>
-      <link>/blog/2018-12-30-quanzhou-shixi-first/</link>
+      <link>https://yunongxin.netlify.com/blog/2018-12-30-quanzhou-shixi-first/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-12-30-quanzhou-shixi-first/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2018-12-30-quanzhou-shixi-first/</guid>
       <description>从入职中国人寿电子商务公司到来到泉州实习，中间经历了一轮非常有意思的培训，结识了很多小伙伴，按照集团的安排，我和其他5个小伙伴来到了“海上丝</description>
     </item>
     
     <item>
       <title>毕业季的那些事</title>
-      <link>/blog/2018-04-24-graduation-season/</link>
+      <link>https://yunongxin.netlify.com/blog/2018-04-24-graduation-season/</link>
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-04-24-graduation-season/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2018-04-24-graduation-season/</guid>
       <description>三月开学，毕业季就来临了！一项项毕业相关的工作有序展开，对我来说，这个毕业季可以说是又惊又喜，各种心情混杂，很难一下说清。 开学前一周，我将写</description>
     </item>
     
     <item>
       <title>秋招有感</title>
-      <link>/blog/2018-01-07-fall-recruit/</link>
+      <link>https://yunongxin.netlify.com/blog/2018-01-07-fall-recruit/</link>
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-01-07-fall-recruit/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2018-01-07-fall-recruit/</guid>
       <description>2018年秋招已经基本结束了，在实习的同时我也参与了人生中第一次校园招聘季，在这段经历中认识了自己，也收获了很多。 本科毕业时，因为已经打定主</description>
     </item>
     
     <item>
       <title>Logistic回归的R实现</title>
-      <link>/blog/logistic-regression-in-r/</link>
+      <link>https://yunongxin.netlify.com/blog/logistic-regression-in-r/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/logistic-regression-in-r/</guid>
+      <guid>https://yunongxin.netlify.com/blog/logistic-regression-in-r/</guid>
       <description>在统计学习和机器学习中，logistic回归是应用最广泛的一种分类方法，其模型通常针对二分类问题，并且具有较好的解释能力。logistic回</description>
     </item>
     
     <item>
       <title>用blogdown拓展包搭建个人主页</title>
-      <link>/blog/2017-10-03-build-my-website/</link>
+      <link>https://yunongxin.netlify.com/blog/2017-10-03-build-my-website/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-10-03-build-my-website/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2017-10-03-build-my-website/</guid>
       <description>谢易辉在bookdown的基础上又推出了blogdown拓展包，提供了一套以hugo为基础的个人主页搭建方式，将网站托管在netlify上，</description>
     </item>
     
     <item>
       <title>常用R包整理（持续更新）</title>
-      <link>/blog/2017-10-01-collect-my-r-package/</link>
+      <link>https://yunongxin.netlify.com/blog/2017-10-01-collect-my-r-package/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-10-01-collect-my-r-package/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2017-10-01-collect-my-r-package/</guid>
       <description>CRAN上已有的R包数量众多，加上GitHub、R-Forge等平台上的R包，为我们提供了各种各样的选择，但是在数目众多的R包中，找到对自己</description>
     </item>
     
     <item>
       <title>Rcpp的初次尝试</title>
-      <link>/blog/2017-09-29-first-try-rcpp/</link>
+      <link>https://yunongxin.netlify.com/blog/2017-09-29-first-try-rcpp/</link>
       <pubDate>Fri, 29 Sep 2017 21:00:00 -0200</pubDate>
       
-      <guid>/blog/2017-09-29-first-try-rcpp/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2017-09-29-first-try-rcpp/</guid>
       <description>Rcpp包作为连接R和C++的利器，是广大R语言使用者使用最广泛的拓展包。R语言给我们提供了丰富多样的统计计算函数和最新的统计模型包，但是受</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/blog/2015-07-23-r-rmarkdown/</link>
+      <link>https://yunongxin.netlify.com/blog/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://yunongxin.netlify.com/blog/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
