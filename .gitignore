@@ -6,3 +6,5 @@
 public
 static/blog
 blogdown
+.vs
+.vscode
