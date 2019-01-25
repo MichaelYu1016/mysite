@@ -13,9 +13,7 @@ theme = "hugo-icarus-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 hasCJKLanguage = true
 # Comment the themesDir option if you use this theme in production
-pygmentsCodefences = true #高亮markdown的代码块
-pygmentsCodefencesGuessSyntax = true #高亮markdown中没有标注语言的代码块
-pygmentsStyle = 'monokai'
+
 
 [permalinks]
     post = "/:year/:month/:day/:slug"

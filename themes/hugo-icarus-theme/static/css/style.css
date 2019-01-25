@@ -2122,7 +2122,9 @@ ol.toc {
 .highlight .code .link {
   color: #bf79db;
 }
-.highlight .code .string,
+.highlight .code .string{
+  color: #e6db74;
+}
 .highlight .code .bullet,
 .highlight .code .subst,
 .highlight .code .title,
