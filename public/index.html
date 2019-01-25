@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
     <title>New Day, New Beginning, Up! Up!! Up!!!</title>
-    <meta name="generator" content="Hugo 0.53" />
+    <meta name="generator" content="Hugo 0.49.2" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Yu Nongxin">
@@ -27,7 +27,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yunongxin.netlify.com/" />
-<meta property="og:updated_time" content="2018-12-30T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-01-25T00:00:00&#43;00:00"/>
 
     
     
@@ -175,12 +175,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        8
+        9
         <span>Blogs</span>
       </div>
       <div class="article-info-block">
         
-          15
+          17
         
         <span>
             Tags
@@ -256,6 +256,154 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        <a href="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/" itemprop="url">
+            <img src="https://yunongxin.netlify.com/banners/scrapy.jpg" class="article-banner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/">
+    <h1 class="article-title" itemprop="name">
+        使用Scrapy库爬取网页初体验
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2019-01-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-01-25</time>
+            &middot;
+            2253
+            words
+            &middot;
+            5
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://yunongxin.netlify.com/categories/python">Python</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://yunongxin.netlify.com/tags/%E7%88%AC%E8%99%AB">爬虫</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://yunongxin.netlify.com/tags/scrapy">Scrapy</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                从前自己鼓捣爬虫的目的都是为了抓取一些数据，尤其是股票数据，因为没有涉及到太复杂的网页，所以自己简单写写就能把东西抓取下来。这次因为工作需要
+            </p>
+            <p class="article-more-link">
+                <a href="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/" data-id="425c5de03c5a84c09e085588c5ec0929" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -1455,6 +1603,32 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://yunongxin.netlify.com/banners/scrapy.jpg)" alt="New Day, New Beginning, Up! Up!! Up!!!" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://yunongxin.netlify.com/categories/python">
+                        Python
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://yunongxin.netlify.com/blog/2019-01-25-first-try-scrapy/" class="title">使用Scrapy库爬取网页初体验</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-01-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-01-25</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://yunongxin.netlify.com/blog/2018-12-30-quanzhou-shixi-first/" class="thumbnail">
                     
                         <span style="background-image:url(https://yunongxin.netlify.com/banners/kaiyuansi.jpg)" alt="New Day, New Beginning, Up! Up!! Up!!!" class="thumbnail-image"></span>
@@ -1557,32 +1731,6 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 </div>
             </li>
             
-            <li>
-                <div class="item-thumbnail">
-                    <a href="https://yunongxin.netlify.com/blog/2017-10-03-build-my-website/" class="thumbnail">
-                    
-                        <span style="background-image:url(https://yunongxin.netlify.com/banners/website.jpg)" alt="New Day, New Beginning, Up! Up!! Up!!!" class="thumbnail-image"></span>
-                    
-                    </a>
-                </div>
-                <div class="item-inner">
-                    
-                    
-                    <p class="item-category">
-                        
-                        <a class="article-category-link" href="https://yunongxin.netlify.com/categories/website">
-                        website
-                        </a>
-                    </p>
-                    
-                    
-                    <p class="item-title"><a href="https://yunongxin.netlify.com/blog/2017-10-03-build-my-website/" class="title">用blogdown拓展包搭建个人主页</a></p>
-                    <p class="item-date">
-                        <time datetime="2017-10-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-10-03</time>
-                    </p>
-                </div>
-            </li>
-            
         </ul>
     </div>
 </div>
@@ -1600,6 +1748,14 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 
                 <a class="category-list-link" href="https://yunongxin.netlify.com/categories/machine-learning">
                     machine-learning
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yunongxin.netlify.com/categories/python">
+                    python
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1727,6 +1883,14 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
             
             <li class="category-list-item">
                 
+                <a class="category-list-link" href="https://yunongxin.netlify.com/tags/scrapy">
+                    scrapy
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
                 <a class="category-list-link" href="https://yunongxin.netlify.com/tags/%E6%84%9F%E5%8F%97">
                     感受
                 </a>
@@ -1753,6 +1917,14 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                 
                 <a class="category-list-link" href="https://yunongxin.netlify.com/tags/%E6%B3%89%E5%B7%9E">
                     泉州
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://yunongxin.netlify.com/tags/%E7%88%AC%E8%99%AB">
+                    爬虫
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -1822,6 +1994,9 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         <a href="https://yunongxin.netlify.com/tags/regression" style="font-size: 12px;">regression</a>
         
         
+        <a href="https://yunongxin.netlify.com/tags/scrapy" style="font-size: 12px;">scrapy</a>
+        
+        
         <a href="https://yunongxin.netlify.com/tags/%E6%84%9F%E5%8F%97" style="font-size: 12px;">感受</a>
         
         
@@ -1832,6 +2007,9 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         
         
         <a href="https://yunongxin.netlify.com/tags/%E6%B3%89%E5%B7%9E" style="font-size: 12px;">泉州</a>
+        
+        
+        <a href="https://yunongxin.netlify.com/tags/%E7%88%AC%E8%99%AB" style="font-size: 12px;">爬虫</a>
         
         
         <a href="https://yunongxin.netlify.com/tags/%E7%9B%B2%E5%AE%A1" style="font-size: 12px;">盲审</a>
