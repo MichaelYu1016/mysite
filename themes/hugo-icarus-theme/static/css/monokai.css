@@ -30,6 +30,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 
 .hljs .hljs-constant,
 .hljs-class .hljs-keyword,
+.hljs-function .hljs-keyword,
 .asciidoc .hljs-code,
 .markdown .hljs-code {
   color: #66d9ef;
@@ -122,7 +123,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .tex .hljs-special,
 .hljs-request,
 .hljs-status {
-  font-weight: italic;
+  font-style: italic;
 }
 
 .coffeescript .javascript,

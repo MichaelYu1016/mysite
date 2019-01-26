@@ -2155,5 +2155,5 @@ ol.toc {
 .highlight .code .section,
 .highlight .code .type,
 .highlight .code .selector-id {
-  font-weight: bold;
+  font-style: italic;
 }
