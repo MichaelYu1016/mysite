@@ -122,7 +122,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .tex .hljs-special,
 .hljs-request,
 .hljs-status {
-  font-weight: bold;
+  font-style: normal;
 }
 
 .hljs-class .hljs-keyword,
