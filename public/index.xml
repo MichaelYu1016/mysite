@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>使用turtle库画图</title>
+      <link>https://yunongxin.netlify.com/blog/2019-04-16-turtle-picture/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yunongxin.netlify.com/blog/2019-04-16-turtle-picture/</guid>
+      <description>turtle库是python的一个第三方库，它可以根据一组函数指令的控制，在平面坐标系中移动，从而在路径上绘制了图形。 turtle绘图可以分</description>
+    </item>
+    
+    <item>
       <title>泉州实习季——景点篇</title>
       <link>https://yunongxin.netlify.com/blog/2018-12-30-quanzhou-shixi-first/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>

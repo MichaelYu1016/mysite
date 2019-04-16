@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://yunongxin.netlify.com/blog/2019-04-16-turtle-picture/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yunongxin.netlify.com/blog/2018-12-30-quanzhou-shixi-first/</loc>
     <lastmod>2018-12-30T00:00:00+00:00</lastmod>
   </url>
@@ -144,6 +149,12 @@
   <url>
     <loc>https://yunongxin.netlify.com/tags/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunongxin.netlify.com/tags/turtle/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
