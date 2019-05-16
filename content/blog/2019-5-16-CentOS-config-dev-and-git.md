@@ -4,7 +4,7 @@ author: "郁农欣"
 date: 2019-05-16
 categories: ["Linux"]
 tags: ["CentOS","git","python"]
-banner: "banners/CentOS.png"
+banner: "banners/CentOS.jpg"
 ---
 项目开始后,需要有一个统一的代码仓库,同时还要有一个开发服务器.从阿里云申请了一台服务器,将测试环境和git仓库都放在该服务器上.
 
