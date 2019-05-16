@@ -1,7 +1,7 @@
 ---
 title: "Superset安装和部署"
 author: "郁农欣"
-date: 2019-04-16
+date: 2019-05-13
 categories: ["Python"]
 tags: ["Superset"]
 banner: "banners/superset.png"
@@ -32,9 +32,52 @@ pip3 install mysqlclient
     - 保证一个dashboard中对应的sql lab生成的视图的权限都赋予了用户,不然会出现某个图表为空(特别是filter box图表).
 
 ### 前端页面调整
-1. 修改首页，```__init__.py```中可修改myIndex的url,指向```/dashboard/list/```.但是有个bug需要调整，退出登录时会出现访问被拒绝的alert.
+1. 修改首页，~~```__init__.py```中可修改myIndex的url,指向```/dashboard/list/```.但是有个bug需要调整，退出登录时会出现访问被拒绝的alert.~~ 我们将登录后的首页指向仪表盘列表,在原基础上新建一个html页面,命名为welcome,继承```basic.html```模板,删去js渲染部分,直接打开```/dashboard/list/```.Python的视图部分可以修改成:
+```python
+    return self.render_template(
+        'superset/welcome.html',
+        entry='welcome',
+        title='ChinaLife',
+        bootstrap_data=json.dumps(payload, default=utils.json_iso_dttm_ser),
+    )
+```
 2. superset的大部分页面都是通过js生成的,所以要对页面进行改动需要对js文件进行修改.
+
+### 增加User模型并更换数据库
+在flask_appbuilder中将User模型增加一个user_group字段.
+在```jinja_context.py```文件中增加一个方法,同时在context中增加传递参数:
+```python
+# 新导入一些类和方法
+from flask_appbuilder.security.sqla import models as ab_models
+from superset import app, db
+def current_group():
+    """test the jinja context"""
+    user = (
+        db.session.query(ab_models.User)
+            .filter_by(username=g.user.username)
+            .one()
+    )
+
+    return user.user_group
+
+
+self.context = {
+            'url_param': url_param,
+            'current_user_id': current_user_id,
+            'current_username': current_username,
+            'filter_values': filter_values,
+            'form_data': {},
+            'current_group': current_group, # 新增加的传递参数
+        }
+```
+superset默认使用的数据库是sqlite,我们将数据库替换成MySQL.
+```python
+# The SQLAlchemy connection string.
+# SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(DATA_DIR, 'superset.db')
+SQLALCHEMY_DATABASE_URI = 'mysql+mysqldb://root:XXXXXXXXXX@127.0.0.1:3306/superset'
+```
+使用```superset db upgrade```初始化数据库.
 
 
 ### WSL开发环境调整
-由于从Windows直接访问WSL的文件会存在各种权限问题,因此我选择将superset库挪到挂载到WSL的Windows盘中```/mnt/```,并在site-packages添加.pth文件,.pth文件中加入自己python库的路径```/mnt/XXX```,即可在Windows中使用IDE进行开发,在WSL中运行.
+由于从Windows直接访问WSL的文件会存在各种权限问题,因此可以将superset库挪到挂载到WSL的Windows盘中```/mnt/```,并在site-packages添加.pth文件,.pth文件中加入自己python库的路径```/mnt/XXX```,即可在Windows中使用IDE进行开发,在WSL中运行.
