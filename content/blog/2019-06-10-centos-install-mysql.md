@@ -7,7 +7,7 @@ tags: ["MySQL"]
 banner: "banners/mysql.png"
 ---
 
-### 1 下载并安装MySQL
+### 1. 下载并安装MySQL
 考虑在CentOS7安装MySQL5.7，先下载官方的与CentOS7对应的Yum Repository
 ```bash
 wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
@@ -22,7 +22,7 @@ yum -y install mysql-community-server
 ```
 安装完成后就会覆盖掉CentOS的mariadb。
 
-### 2 MySQL数据库设置
+### 2. MySQL数据库设置
 首先启动MySQL
 ```bash
 systemctl start mysqld.service
