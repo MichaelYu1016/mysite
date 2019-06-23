@@ -944,7 +944,7 @@ a.article-title:hover {
 .article-entry blockquote {
   position: relative;
   font-family: "KaiTi", "KaiTi_GB2312", Georgia, "Times New Roman", "Microsoft Yahei", serif;
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin: 0 -20px;
   padding: 10px 20px 10px 54px;
   background: #fcfcfc;
@@ -954,6 +954,16 @@ a.article-title:hover {
   top: 20px;
   left: 10px;
   content: "\f10d";
+  color: #e2e2e2;
+  font-size: 32px;
+  font-family: FontAwesome;
+  text-align: center;
+  position: absolute;
+}
+.article-entry blockquote:after {
+  top: 20px;
+  left: 10px;
+  content: "\f10e";
   color: #e2e2e2;
   font-size: 32px;
   font-family: FontAwesome;
@@ -1440,8 +1450,8 @@ ol.toc {
   overflow: hidden;
 }
 .archive-article .archive-article-thumbnail .thumbnail span {
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 80px;
   display: block;
 }
 .archive-article .archive-article-thumbnail .thumbnail .thumbnail-image {
