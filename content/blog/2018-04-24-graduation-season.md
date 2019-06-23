@@ -1,6 +1,6 @@
 ---
 title: "毕业季的那些事"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2018-04-24
 categories: ["生活"]
 tags: ["毕业","论文"]

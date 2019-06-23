@@ -1,6 +1,6 @@
 ---
 title: "CentOS7安装MySQL5.7"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2019-06-10
 categories: ["Programming"]
 tags: ["MySQL"]

@@ -1,6 +1,6 @@
 ---
 title: "秋招有感"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2018-01-07
 categories: ["工作"]
 tags: ["校招"]

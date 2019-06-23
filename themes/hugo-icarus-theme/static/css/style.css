@@ -135,7 +135,7 @@ code {
   font-size: 0.8em;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  font-family: "Source Code Pro", Courier New, Consolas, monospace;
+  font-family: Consolas, "Source Code Pro", Courier New, monospace;
   background-color: #f8f8f8;
 }
 .outer {
@@ -217,6 +217,10 @@ code {
 .layout-wrap-inner.tag-cloud a:visited:hover,
 .timeline-row .content h1 a:visited:hover {
   color: #38b7ea;
+}
+
+#inner-wrap {
+  display: flex
 }
 .article-meta,
 .archive-year,
@@ -939,7 +943,7 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   position: relative;
-  font-family: Georgia, "Times New Roman", "Microsoft Yahei", serif;
+  font-family: "KaiTi", "KaiTi_GB2312", Georgia, "Times New Roman", "Microsoft Yahei", serif;
   font-size: 1.1em;
   margin: 0 -20px;
   padding: 10px 20px 10px 54px;
@@ -1417,7 +1421,8 @@ ol.toc {
   }
 }
 .archive-article .archive-article-thumbnail {
-  width: 160px;
+  width: 80px;
+  height: 80px;
   padding-right: 15px;
 }
 @media screen and (max-width: 559px) {
@@ -2074,7 +2079,7 @@ ol.toc {
   overflow-x: auto;
   padding: 15px 20px;
   font-size: 14px;
-  font-family: "Source Code Pro", Courier New, Consolas, monospace;
+  font-family: Consolas, "Source Code Pro", Courier New, monospace;
   line-height: 22.400000000000002px;
 }
 .highlight table {

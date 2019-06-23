@@ -1,6 +1,6 @@
 ---
 title: "常用R包整理（持续更新）"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2017-10-01
 categories: ["Programming"]
 tags: ["R package"]

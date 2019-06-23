@@ -1,5 +1,5 @@
 <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
+    <div class="archive-article-inner" id = "inner-wrap">
         <div class="archive-article-thumbnail">
             {{ if isset .Params "banner" }}
             <a href="{{ .Permalink }}" class="thumbnail">
@@ -11,14 +11,17 @@
             </a>
             {{ end }}
         </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="{{ .Permalink }}">{{ .Title }}</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
-            </div>
-        </header>
+        <div class="archive-article-header-wrap">
+            <header class="archive-article-header">
+                <h1 itemprop="name">
+                    <a class="archive-article-title" href="{{ .Permalink }}">{{ .Title }}</a>
+                </h1>
+                <div class="archive-article-date">
+                    <i class="fa fa-calendar"></i>
+                    <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+                </div>
+            </header>
+        </div>
+
     </div>
 </article>

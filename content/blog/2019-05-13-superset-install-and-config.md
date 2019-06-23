@@ -1,6 +1,6 @@
 ---
 title: "Superset安装和部署"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2019-05-13
 categories: ["Programming"]
 tags: ["Superset","python"]
