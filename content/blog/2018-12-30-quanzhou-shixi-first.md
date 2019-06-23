@@ -3,7 +3,7 @@ title: "泉州实习季——景点篇"
 author: "郁农欣"
 date: 2018-12-30
 categories: ["工作"]
-tags: ["泉州","新员工实习"]
+tags: ["泉州","新员工培训"]
 banner: "banners/kaiyuansi.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "用blogdown拓展包搭建个人主页"
 author: "郁农欣"
 date: 2017-10-03
 banner: "banners/website.jpg"
-categories: ["website"]
+categories: ["Programming"]
 tags: ["R package","hugo"]
 
 ---

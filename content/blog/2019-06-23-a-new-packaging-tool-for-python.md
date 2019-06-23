@@ -2,8 +2,8 @@
 title: "Python虚拟环境和包管理工具——Pipenv"
 author: "郁农欣"
 date: 2019-06-23
-categories: ["Python"]
-tags: ["packaging","workflow","python"]
+categories: ["Programming"]
+tags: ["packaging tool","python"]
 banner: "banners/python.jpg"
 ---
 
