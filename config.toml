@@ -61,18 +61,20 @@ hasCJKLanguage = true
     label  = "Blogs"
     link   = "blog/"
     weight = 2
-	
+
 [[params.menu]]
-    before = false
+    before = ture
+    label  = "Categories"
+    link   = "categories/"
+    weight = 3	
+
+[[params.menu]]
+    before = ture
     label  = "Tags"
     link   = "tags/"
     weight = 4
 
-[[params.menu]]
-    before = false
-    label  = "Categories"
-    link   = "categories/"
-    weight = 3
+
 
 
 # Enter a link for the follow button on the left

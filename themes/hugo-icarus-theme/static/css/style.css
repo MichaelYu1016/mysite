@@ -885,7 +885,7 @@ a.article-title:hover {
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 1em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -914,8 +914,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
 }
 .article-entry img,
 .article-entry video {
@@ -1400,7 +1400,7 @@ ol.toc {
   overflow: hidden;
   break-inside: avoid-column;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .archive-article:before,
 .archive-article:after {
@@ -1487,7 +1487,7 @@ ol.toc {
 .layout-wrap-inner.list-categories ul li,
 .layout-wrap-inner.list-categories ul .category-list-child {
   padding: 10px 0;
-  font-size: 14px;
+  font-size: 16px;
   border-bottom: 1px solid border-color;
 }
 .layout-wrap-inner.list-categories ul li a,
@@ -1508,8 +1508,8 @@ ol.toc {
 }
 .layout-wrap-inner.list-categories li a:before {
   color: #ccc;
-  content: "\f0da";
-  font-size: 12px;
+  content: "\f02b";
+  font-size: 16px;
   margin-right: 6px;
   font-family: FontAwesome;
   -webkit-transition: 0.2s ease;
@@ -2108,10 +2108,10 @@ ol.toc {
   padding-right: 20px;
 }
 .article-entry .highlight {
-  margin: 1.6em 0;
+  margin: 1em 0;
 }
 .article-entry .highlight .line {
-  height: 1.6em;
+  height: 1em;
 }
 .highlight {
   color: #ddd;
