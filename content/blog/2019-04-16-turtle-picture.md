@@ -1,8 +1,8 @@
 ---
 title: "使用turtle库画图"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2019-04-16
-categories: ["Python"]
+categories: ["Programming"]
 tags: ["turtle"]
 banner: "banners/turtle.png"
 ---

@@ -1,9 +1,9 @@
 ---
 title: "毕业季的那些事"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2018-04-24
-categories: ["毕业季"]
-tags: ["盲审","论文"]
+categories: ["生活"]
+tags: ["毕业","论文"]
 banner: "banners/graduationseason.jpg"
 
 ---

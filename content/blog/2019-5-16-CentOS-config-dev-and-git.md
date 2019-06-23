@@ -1,8 +1,8 @@
 ---
 title: "CentOS配置git仓库和开发环境"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2019-05-16
-categories: ["Linux"]
+categories: ["Programming"]
 tags: ["CentOS","git","python"]
 banner: "banners/CentOS.jpg"
 ---

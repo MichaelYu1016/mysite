@@ -118,7 +118,7 @@ body,
 body {
   color: #565a5f;
   background: #f5f8f9;
-  font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font: 1rem "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 a {
@@ -132,10 +132,10 @@ code {
   margin: 0 2px;
   color: #e96900;
   padding: 3px 5px;
-  font-size: 0.8em;
+  font-size: 1rem;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  font-family: "Source Code Pro", Courier New, Consolas, monospace;
+  font-family: Consolas, "Source Code Pro", Courier New, monospace;
   background-color: #f8f8f8;
 }
 .outer {
@@ -217,6 +217,10 @@ code {
 .layout-wrap-inner.tag-cloud a:visited:hover,
 .timeline-row .content h1 a:visited:hover {
   color: #38b7ea;
+}
+
+#inner-wrap {
+  display: flex
 }
 .article-meta,
 .archive-year,
@@ -881,7 +885,7 @@ a.article-title:hover {
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 1em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -910,8 +914,8 @@ a.article-title:hover {
 .article-entry ul,
 .article-entry ol,
 .article-entry dl {
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
 }
 .article-entry img,
 .article-entry video {
@@ -939,8 +943,8 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   position: relative;
-  font-family: Georgia, "Times New Roman", "Microsoft Yahei", serif;
-  font-size: 1.1em;
+  font-family: "KaiTi", "KaiTi_GB2312", Georgia, "Times New Roman", "Microsoft Yahei", serif;
+  font-size: 1.5em;
   margin: 0 -20px;
   padding: 10px 20px 10px 54px;
   background: #fcfcfc;
@@ -956,9 +960,19 @@ a.article-title:hover {
   text-align: center;
   position: absolute;
 }
+.article-entry blockquote:after {
+  bottom: 20px;
+  right: 10px;
+  content: "\f10e";
+  color: #e2e2e2;
+  font-size: 32px;
+  font-family: FontAwesome;
+  text-align: center;
+  position: absolute;
+}
 .article-entry blockquote footer {
   font-size: 14px;
-  margin: 1.6em 0;
+  margin: 1em 0;
   font-family: "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
@@ -1335,6 +1349,7 @@ ol.toc {
   content: "";
   display: table;
 }
+
 .archives:after {
   clear: both;
 }
@@ -1386,7 +1401,7 @@ ol.toc {
   overflow: hidden;
   break-inside: avoid-column;
   padding: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .archive-article:before,
 .archive-article:after {
@@ -1417,7 +1432,8 @@ ol.toc {
   }
 }
 .archive-article .archive-article-thumbnail {
-  width: 160px;
+  width: 80px;
+  height: 80px;
   padding-right: 15px;
 }
 @media screen and (max-width: 559px) {
@@ -1429,14 +1445,14 @@ ol.toc {
 .archive-article .archive-article-thumbnail .thumbnail {
   height: 0;
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 100%;
   display: block;
   position: relative;
   overflow: hidden;
 }
 .archive-article .archive-article-thumbnail .thumbnail span {
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 80px;
   display: block;
 }
 .archive-article .archive-article-thumbnail .thumbnail .thumbnail-image {
@@ -1472,7 +1488,7 @@ ol.toc {
 .layout-wrap-inner.list-categories ul li,
 .layout-wrap-inner.list-categories ul .category-list-child {
   padding: 10px 0;
-  font-size: 14px;
+  font-size: 16px;
   border-bottom: 1px solid border-color;
 }
 .layout-wrap-inner.list-categories ul li a,
@@ -1493,8 +1509,8 @@ ol.toc {
 }
 .layout-wrap-inner.list-categories li a:before {
   color: #ccc;
-  content: "\f0da";
-  font-size: 12px;
+  content: "\f02c";
+  font-size: 16px;
   margin-right: 6px;
   font-family: FontAwesome;
   -webkit-transition: 0.2s ease;
@@ -2074,7 +2090,7 @@ ol.toc {
   overflow-x: auto;
   padding: 15px 20px;
   font-size: 14px;
-  font-family: "Source Code Pro", Courier New, Consolas, monospace;
+  font-family: Consolas, "Source Code Pro", Courier New, monospace;
   line-height: 22.400000000000002px;
 }
 .highlight table {
@@ -2093,10 +2109,10 @@ ol.toc {
   padding-right: 20px;
 }
 .article-entry .highlight {
-  margin: 1.6em 0;
+  margin: 1em 0;
 }
 .article-entry .highlight .line {
-  height: 1.6em;
+  height: 1em;
 }
 .highlight {
   color: #ddd;

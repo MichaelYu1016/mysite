@@ -1,9 +1,9 @@
 ---
 title: "Superset安装和部署"
-author: "郁农欣"
+author: "Yu Nongxin"
 date: 2019-05-13
-categories: ["Python"]
-tags: ["Superset"]
+categories: ["Programming"]
+tags: ["Superset","python"]
 banner: "banners/superset.png"
 ---
 最近公司需要开发一个报表系统,时间和人力都比较吃紧,最后选择了使用superset作为实现的工具.
