@@ -118,7 +118,7 @@ body,
 body {
   color: #565a5f;
   background: #f5f8f9;
-  font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  font: 1rem "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 a {
@@ -132,7 +132,7 @@ code {
   margin: 0 2px;
   color: #e96900;
   padding: 3px 5px;
-  font-size: 0.8em;
+  font-size: 1rem;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   font-family: Consolas, "Source Code Pro", Courier New, monospace;
@@ -961,8 +961,8 @@ a.article-title:hover {
   position: absolute;
 }
 .article-entry blockquote:after {
-  top: 20px;
-  left: 10px;
+  bottom: 20px;
+  right: 10px;
   content: "\f10e";
   color: #e2e2e2;
   font-size: 32px;
@@ -972,7 +972,7 @@ a.article-title:hover {
 }
 .article-entry blockquote footer {
   font-size: 14px;
-  margin: 1.6em 0;
+  margin: 1em 0;
   font-family: "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
@@ -1444,7 +1444,7 @@ ol.toc {
 .archive-article .archive-article-thumbnail .thumbnail {
   height: 0;
   width: 100%;
-  padding-bottom: 56.25%;
+  padding-bottom: 100%;
   display: block;
   position: relative;
   overflow: hidden;
