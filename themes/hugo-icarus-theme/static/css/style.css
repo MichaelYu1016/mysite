@@ -218,6 +218,11 @@ code {
 .timeline-row .content h1 a:visited:hover {
   color: #38b7ea;
 }
+.archive-wrap {
+  border-radius:4px;
+  backgroud:#fff;
+  margin-top: 40px;
+}
 
 #inner-wrap {
   display: flex
@@ -1349,6 +1354,9 @@ ol.toc {
   content: "";
   display: table;
 }
+.archive {
+  padding: 5px
+}
 .archives:after {
   clear: both;
 }
@@ -1360,7 +1368,7 @@ ol.toc {
 .archive-tag-wrap,
 .layout-title {
   font-size: 1.4em;
-  margin: 40px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 @media screen and (max-width: 559px) {
   .archive-year-wrap,
