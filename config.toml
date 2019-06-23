@@ -54,25 +54,21 @@ hasCJKLanguage = true
     before = true
     label  = "Home"
     link   = "/"
-    weight = 1
 
 [[params.menu]]
     before = true
     label  = "Blogs"
     link   = "blog/"
-    weight = 2
 
 [[params.menu]]
-    before = ture
+    before = false
     label  = "Categories"
-    link   = "categories/"
-    weight = 3	
+    link   = "categories/"	
 
 [[params.menu]]
-    before = ture
+    before = false
     label  = "Tags"
     link   = "tags/"
-    weight = 4
 
 
 
