@@ -32,6 +32,7 @@ pip install pipenv
 
 # 使用Pipenv
 新建一个准备当环境的文件夹venv，并cd进入该文件夹：
+
 ```pipenv --three```   会使用当前系统的Python3创建环境
 
 ```pipenv --python``` 3.6 指定某一Python版本创建环境
@@ -50,6 +51,7 @@ pip install pipenv
 如果有人从git库中下载了Pipfile文件，使用```pipenv install```会根据Pipfile的内容创建一个新的虚拟环境并安装依赖的软件包。而开发环境则使用```pipenv install -dev```来安装开发环境需要的软件包。
 
 # 参数及命令一览
+
 ```bash
 $ pipenv
 Usage: pipenv [OPTIONS] COMMAND [ARGS]...
