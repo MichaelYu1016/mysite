@@ -33,17 +33,14 @@ pip install pipenv
 # 使用Pipenv
 新建一个准备当环境的文件夹venv，并cd进入该文件夹：
 
-```pipenv --three```   会使用当前系统的Python3创建环境
-
-```pipenv --python``` 3.6 指定某一Python版本创建环境
-
-```pipenv shell``` 激活虚拟环境
-
-```pipenv --where```  显示目录信息```E:\Documents\PythonScript\learn_fab```
-
-```pipenv --venv```  显示虚拟环境信息```E:\Documents\PythonScript\venv\learn_fab```
-
-```pipenv --py```  显示Python解释器信息
+```bash
+pipenv --three #会使用当前系统的Python3创建环境
+pipenv --python 3.6 # 指定某一Python版本创建环境
+pipenv shell #激活虚拟环境
+pipenv --where #显示目录信息 E:\Documents\PythonScript\learn_fab
+pipenv --venv #显示虚拟环境信息 E:\Documents\PythonScript\venv\learn_fab
+pipenv --py #显示Python解释器信息
+```
 
 在使用pipenv时，我们需要忘记pip，安装包都使用```pipenv install <package>```命令，如果想安装只有开发环境使用的包，则可以使用```pipenv install --dev <package>```来进行区分。
 初次使用时，cd进项目文件夹，使用```pipenv install```进行初始化，会创建Pipfile和Pipfile.lock两个文件，Pipfile会记录安装的包，而Pipfile.lock则会把安装的子依赖记录下来。
