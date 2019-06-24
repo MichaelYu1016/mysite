@@ -1,4 +1,4 @@
-<!-- {{ $paginator := .Paginate (where .Data.Pages "Section" "in" .Site.Params.mainSections) }}
+{{ $paginator := .Paginate (where .Data.Pages "Section" "in" .Site.Params.mainSections) }}
 {{ range $paginator.Pages }}
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -24,34 +24,5 @@
 </article>
 {{ end }}
 
-{{ partial "pagination" . }} -->
-
-{{ $paginator := .Paginate (where .Data.Pages "Section" "in" .Site.Params.mainSections) }}
-<div class="timeline-wrap">
-{{ range $paginator.Pages }}
-<article class="timeline-row" itemscope="" itemprop="blogPost">
-    <div class="node"></div>
-    <div class="content">
-        {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
-        <a href="{{ .Permalink }}" itemprop="url">
-            <img src="{{ .Params.banner | absURL }}" class="article-banner">
-        {{ end }}
-        </a>
-
-        {{ partial "article_header" . }}
-        <div class="article-meta" itemprop="articleBody">
-            <p>
-                {{ .Description | default .Summary }}
-            </p>
-            <p class="article-more-link">
-                <a href="{{ .Permalink }}">
-                    {{with .Site.Data.l10n.articles.read_more}}{{.}}{{end}}
-                </a>
-            </p>
-        </div>
-        {{ partial "article_footer" . }}
-    </div>
-</article>
-{{ end }}
-</div>
 {{ partial "pagination" . }}
+

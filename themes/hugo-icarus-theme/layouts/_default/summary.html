@@ -1,4 +1,4 @@
-<article class="archive-article archive-type-post">
+<!-- <article class="archive-article archive-type-post">
     <div class="archive-article-inner" id = "inner-wrap">
         <div class="archive-article-thumbnail">
             {{ if isset .Params "banner" }}
@@ -23,5 +23,50 @@
             </header>
         </div>
 
+    </div>
+</article> -->
+
+<article class="timeline-wrap">
+    <div class="timeline-row" id="inner-wrap">
+        <div class="node"></div>
+        <div class="title">
+            <div class="archive-article-date">
+                <i class="fa fa-calendar"></i>
+                <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+            </div>
+        </div>
+        <div class="content">
+            <div class="archive-article-thumbnail">
+                {{ if isset .Params "banner" }}
+                <a href="{{ .Permalink }}" class="thumbnail">
+                    <span style="background-image:url({{ .Params.banner | absURL }})" alt="{{ .Title }}"
+                        class="thumbnail-image"></span>
+                </a>
+                {{ else }}
+                <a href="{{ .Permalink }}" class="thumbnail">
+                    <span class="thumbnail-image thumbnail-none"></span>
+                </a>
+                {{ end }}
+            </div>
+            <div class="archive-article-header-wrap">
+                <header class="archive-article-header">
+                    <h1 itemprop="name">
+                        <a class="archive-article-title" href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h1>
+                </header>
+                <div class="article-meta">
+                    {{ if isset .Params "categories" }}
+                    {{ if gt (len .Params.categories) 0 }}
+                    <p class="item-category">
+                        {{ $url := printf "%s/%s" "categories" (index .Params.categories 0 | urlize | lower)}}
+                        <a class="article-category-link" href="{{ $url | absURL }}">
+                            {{ index .Params.categories 0 }}
+                        </a>
+                    </p>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
     </div>
 </article>
