@@ -1576,17 +1576,17 @@ ol.toc {
   color: #eceff2;
 }
 .timeline-wrap {
-  margin: 40px 20px 40px 40px;
+  margin: 30px 20px 20px 20px;
   border-left: 3px solid #eceff2;
 }
 @media screen and (max-width: 559px) {
   .timeline-wrap {
-    margin: 40px 20px 40px 30px;
+    margin: 30px 20px 20px 20px;
   }
 }
 @media screen and (min-width: 560px) and (max-width: 799px) {
   .timeline-wrap {
-    margin: 40px 20px 40px 30px;
+    margin: 30px 20px 20px 20px;
   }
 }
 .timeline-row {
@@ -1654,13 +1654,13 @@ ol.toc {
   vertical-align: top;
   width: 80px;
   height: 80px;
-  padding-right: 5px;
+  padding: 5px;
 }
 @media screen and (max-width: 559px) {
   .timeline-row .content .archive-article-thumbnail {
     display: block;
     width: 100%;
-    padding-bottom: 5px;
+    padding: 5px;
   }
 }
 .timeline-row .content .archive-article-thumbnail .thumbnail {
