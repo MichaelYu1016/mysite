@@ -26,16 +26,16 @@
     </div>
 </article> -->
 
-<article class="timeline-wrap">
-    <div class="timeline-row" id="inner-wrap">
+<article class="timeline-row">
+    <div class="timeline-row">
         <div class="node"></div>
-        <div class="title">
+        <!-- <div class="title">
             <div class="archive-article-date">
                 <i class="fa fa-calendar"></i>
                 <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
             </div>
-        </div>
-        <div class="content">
+        </div> -->
+        <div class="content" id="inner-wrap">
             <div class="archive-article-thumbnail">
                 {{ if isset .Params "banner" }}
                 <a href="{{ .Permalink }}" class="thumbnail">

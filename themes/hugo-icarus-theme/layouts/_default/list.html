@@ -9,10 +9,12 @@
             <span class="archive-category">{{ .Title }}</span>
         </div>
         <div class="archives">
-            {{ $paginator := .Paginate .Data.Pages }}
-            {{ range $paginator.Pages }}
-                {{ .Render "summary" }} 
-            {{ end }}
+            <div class="timeline-wrap">
+                {{ $paginator := .Paginate .Data.Pages }}
+                {{ range $paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
+            </div>
         </div>
     </section>
     {{ partial "pagination" . }}
