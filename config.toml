@@ -1,13 +1,13 @@
 baseurl = "https://yunongxin.netlify.com/"
 relativeurls = true
-languageCode = "en-us"
+languageCode = "zh-CN"
 title = "Taro's Fantastic Travel"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
-paginate = 10
+paginate = 5
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
