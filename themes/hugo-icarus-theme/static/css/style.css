@@ -809,7 +809,7 @@ code {
 }
 .article-banner {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 .article-header {
   padding: 20px 20px 0;
