@@ -1663,6 +1663,29 @@ ol.toc {
     padding-bottom: 5px;
   }
 }
+.timeline-row .content .archive-article-thumbnail .thumbnail {
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.timeline-row .content .archive-article-thumbnail .thumbnail span {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+.timeline-row .content .archive-article-thumbnail .thumbnail .thumbnail-image {
+  position: absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.timeline-row .content .archive-article-thumbnail .thumbnail .thumbnail-none {
+  background-image: url("images/thumb-default-small.png");
+}
 .timeline-row-major .node {
   width: 14px;
   height: 14px;
