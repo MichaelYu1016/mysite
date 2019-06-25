@@ -1,7 +1,7 @@
 ---
 title: "写在毕业一年之际"
 author: "Yu Nongxin"
-date: {{.Date}}
+date: "2019-06-25"
 categories: ["生活"]
 tags: ["毕业"]
 banner: "banners/20190625.jpg"
