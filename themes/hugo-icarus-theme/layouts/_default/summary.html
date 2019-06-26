@@ -55,19 +55,19 @@
                     </h1>
                 </header>
                 <div class="article-meta">
-                    <p class="item-category">
+                    <div class="item-category">
                         <i class="fa fa-calendar"></i>
                         <time datetime="{{ .Date }}"
                             itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
-                    </p>
+                    </div>
                     {{ if isset .Params "categories" }}
                     {{ if gt (len .Params.categories) 0 }}
-                    <p class="item-category">
+                    <div class="item-category">
                         {{ $url := printf "%s/%s" "categories" (index .Params.categories 0 | urlize | lower)}}
                         <a class="article-category-link" href="{{ $url | absURL }}">
                             {{ index .Params.categories 0 }}
                         </a>
-                    </p>
+                    </div>
                     {{ end }}
                     {{ end }}
                 </div>

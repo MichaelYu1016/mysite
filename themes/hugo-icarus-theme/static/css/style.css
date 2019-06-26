@@ -1470,7 +1470,6 @@ ol.toc {
   display: block;
   font-size: 1.6em;
   line-height: 1.4em;
-  margin-bottom: 12px;
 }
 @media screen and (max-width: 559px) {
   .archive-article-title {
