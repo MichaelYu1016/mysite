@@ -61,15 +61,23 @@ import javax.sql.DataSource;
 public class DataSource1Config {
     /**
      * Bean 将这个对象放入Spring容器中
-     * Primary 表示这个数据源是默认数据源(虽然去掉好像也不会影响什么~)
+     * Primary 表示这个数据源是默认数据源(如果不设置主从，则可以去掉)
      * 读取application.properties中的配置参数映射成为一个对象
      * prefix表示参数的前缀
      */
     @Bean(name = "test1DataSource")
     @Primary
     @ConfigurationProperties(prefix = "spring.datasource.test1")
-    public DataSource getTest1DataSource() {
+    public DataSource test1DataSource() {
         return DataSourceBuilder.create().build();
+    }
+    /**
+     * 配置事务
+     */
+    @Bean(name = "test1TxManager")
+    @Resource
+    public PlatformTransactionManager test1TxManager(DataSource test1DataSource){
+        return new DataSourceTransactionManager(test1DataSource);
     }
 
     /**
@@ -125,8 +133,14 @@ public class DataSource1Config {
      */
     @Bean(name = "test2DataSource")
     @ConfigurationProperties(prefix = "spring.datasource.test2")
-    public DataSource getTest2DataSource() {
+    public DataSource test2DataSource() {
         return DataSourceBuilder.create().build();
+    }
+
+    @Bean(name = "test2TxManager")
+    @Resource
+    public PlatformTransactionManager test2TxManager(DataSource test2DataSource){
+        return new DataSourceTransactionManager(test2DataSource);
     }
 
     /**
@@ -150,10 +164,15 @@ public class DataSource1Config {
     }
 }
 ```
-完成这些之后就可以写Mapper文件和xml文件并放入对应的文件夹中。
+完成这些之后就可以写Mapper文件和xml文件并放入对应的文件夹中。由于我们单独配置了每个数据源的事务管理，所以在使用`@Transactional`注解的时候需要指定事务管理器。
+```java
+@Transactional(transactionManager = "test1TxManager")
+```
 
 在运行前我们还需要关闭Spring自动配置数据源
 ```java
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class,
+        DataSourceTransactionManagerAutoConfiguration.class,
+        JdbcTemplateAutoConfiguration.class})
 ```
 在启动函数上排除掉自动配置数据源就可以，测试结果这里就省略了。
