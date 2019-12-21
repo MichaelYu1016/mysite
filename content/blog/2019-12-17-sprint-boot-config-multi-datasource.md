@@ -60,8 +60,8 @@ import javax.sql.DataSource;
 @MapperScan(basePackages = "com.example.mapper.test1", sqlSessionFactoryRef = "test1SqlSessionFactory")
 public class DataSource1Config {
     /**
-     * Bean 将这个对象放入Spring容器中
-     * Primary 表示这个数据源是默认数据源(如果不设置主从，则可以去掉)
+     * {@code @Bean} 将这个对象放入Spring容器中
+     * {@code @Primary} 表示这个数据源是默认数据源(如果不设置主从，则可以去掉)
      * 读取application.properties中的配置参数映射成为一个对象
      * prefix表示参数的前缀
      */
