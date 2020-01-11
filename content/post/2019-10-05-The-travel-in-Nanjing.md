@@ -5,7 +5,8 @@ date: "2019-10-05"
 categories: ["生活"]
 tags: ["旅行"]
 thumbnailImagePosition: left
-thumbnailImage: "banners/nanjing.png"
+coverImage: "banners/nanjing.jpg"
+coversize: partial
 ---
 
 参加工作之后第一次出行，选择了南京。六朝金粉，十里秦淮，南京的历史和文化底蕴吸引着我。约上在武汉读研的表弟，一起开启这一段旅程。
