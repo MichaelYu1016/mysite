@@ -4,9 +4,10 @@ author: "Yu Nongxin"
 date: 2019-06-23
 categories: ["Programming"]
 tags: ["packaging tool","python"]
-banner: "banners/python.jpg"
+thumbnailImagePosition: left
+thumbnailImage: "banners/python.jpg"
 ---
-
+<!--more-->
 # 前言
 最近准备自己从头写一个项目，但是之前也没有系统研究过管理自己的开发过程。在学习别人的源码时，认真看了一下好的项目的文件结构，突然发现了一个新的python开发利器[Pipenv](https://pypi.org/project/pipenv/)。在开发前端时有npm，yarn这样的包管理工具，能够生成项目中使用的包和依赖关系，而在python中，过去一直使用的是requirement.txt，经常需要手动维护，相对而言并不是特别方便。而Pipenv的出现则带来了很大变化，使得Python开发过程中虚拟环境的管理和包的管理都有了更好的选择。
 

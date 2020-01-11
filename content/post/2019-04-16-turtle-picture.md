@@ -4,16 +4,18 @@ author: "Yu Nongxin"
 date: 2019-04-16
 categories: ["Programming"]
 tags: ["turtle"]
-banner: "banners/turtle.png"
+thumbnailImagePosition: left
+thumbnailImage: "banners/turtle.png"
 ---
 
 turtle库是python的一个第三方库，它可以根据一组函数指令的控制，在平面坐标系中移动，从而在路径上绘制了图形。
-
+<!--more-->
 turtle绘图可以分为**画布**和**画笔**，画布是就是turtle为我们展开用于绘图区域，我们可以设置它的大小和初始位置。画笔则可以分为几个部分来介绍：
+
 * 画笔的状态
  在画布上，默认有一个坐标原点为画布中心的坐标轴，坐标原点上有一只面朝x轴正方向小乌龟。这里我们描述小乌龟时使用了两个词语：坐标原点(位置)，面朝x轴正方向(方向)， turtle绘图中，就是使用位置方向描述小乌龟(画笔)的状态。
 
- * 画笔的属性
+* 画笔的属性
  画笔(画笔的属性，颜色、画线的宽度等)
    - turtle.pensize()：设置画笔的宽度；
    - turtle.pencolor()：没有参数传入，返回当前画笔颜色，传入参数设置画笔颜色，可以是字符串如"green", "red",也可以是RGB 3元组。
@@ -23,6 +25,7 @@ turtle绘图可以分为**画布**和**画笔**，画布是就是turtle为我们
 操纵海龟绘图有着许多的命令，这些命令可以划分为3中：一种为运动命令，一种为画笔控制命令，还有一种是全局控制命令。
 
 接下来可以看几个示例：
+
 ```python
 from turtle import *
 # 设置色彩模式是RGB:

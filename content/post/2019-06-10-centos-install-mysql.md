@@ -4,9 +4,10 @@ author: "Yu Nongxin"
 date: 2019-06-10
 categories: ["Programming"]
 tags: ["MySQL"]
-banner: "banners/mysql.png"
+thumbnailImagePosition: left
+thumbnailImage: "banners/mysql.png"
 ---
-
+<!--more-->
 ### 1. 下载并安装MySQL
 考虑在CentOS7安装MySQL5.7，先下载官方的与CentOS7对应的Yum Repository
 ```bash

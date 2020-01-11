@@ -4,12 +4,14 @@ author: "Yu Nongxin"
 date: "2019-10-24"
 categories: ["Programming"]
 tags: ["Java", "Spring Boot"]
-banner: "banners/swagger.png"
+thumbnailImagePosition: left
+thumbnailImage: "banners/swagger.png"
 ---
-
+<!--more-->
 ## 集成Swagger 2
 
 在spring boot中使用swagger 2可以通过官方提供的Swagger 2和Swagger UI包来实现。首先在POM文件中引入依赖：
+
 ```
     <!-- swagger -->
     <dependency>

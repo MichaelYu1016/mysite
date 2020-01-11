@@ -6,7 +6,7 @@ categories: ["Programming"]
 tags: ["python","log","json"]
 ---
 最近在研究Flask项目时碰到了一些问题，一个是Decimal类型不能Json序列化，一个是如何控制日志的输出。
-
+<!--more-->
 ## Json序列化
 在MySQL中一般我们对数值有精度要求的话，都会设置成Decimal类型，而SQLACHEMY取出Decimal对象时Flask自带的json解码函数不能将其进行序列化，导致我在使用API读取数据时报错。问题其实很明确，如何快速解决是关键。从度娘上看了不少解决方法，从中选择了一种对自己代码改动较小的。核心思想是将Flask自带的json解码方法重写。
 ```python
@@ -51,4 +51,4 @@ if app.config['LOG_ENV_PROD']:
     handler.setFormatter(fmt)
     logging.getLogger().addHandler(handler)
 ```
-通过添加一个控制器handler我们可以将日志输出到指定路径下的文件中。这里为了减少部署时代码的改动量，我们使用一个变量```['LOG_ENV_PROD']```来判断是否启用该log配置。```TimeRotatingFileHandler```函数中需要设置文件路径，```when```设置基本时间单位，```interval```设置切割的时间区间，```backupCount```设置最大保留的日志文件数量，```encoding```设置日志文件的编码。```handler.setFormatter()```函数设置写入日志文件的日志格式。针对日志的处理还有很多内容，具体可以参考[logging](https://docs.python.org/3/library/logging.html).
+通过添加一个控制器handler我们可以将日志输出到指定路径下的文件中。这里为了减少部署时代码的改动量，我们使用一个变量`LOG_ENV_PROD`来判断是否启用该 log 配置。`TimeRotatingFileHandler`函数中需要设置文件路径，`when`设置基本时间单位，`interval`设置切割的时间区间，`backupCount`设置最大保留的日志文件数量，`encoding`设置日志文件的编码。`handler.setFormatter()`函数设置写入日志文件的日志格式。针对日志的处理还有很多内容，具体可以参考[logging](https://docs.python.org/3/library/logging.html).

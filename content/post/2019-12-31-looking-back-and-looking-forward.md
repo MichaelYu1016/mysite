@@ -4,9 +4,12 @@ author: "Yu Nongxin"
 date: "2019-12-31"
 categories: ["生活"]
 tags: ["总结"]
-banner: "banners/2020.jpg"
+slug: "looking-back-and-looking-forward"
+thumbnailImagePosition: left
+thumbnailImage: "banners/2020.jpg"
 ---
 2019年一晃而过，有时感觉似乎还停留在泉州刚刚回京那一刻。回顾2019，先松后紧，可喜的是对自己有了一个清晰的短期规划，可惜的是毕业时的长期职业发展似乎要推迟了。
+<!--more-->
 
 ## 工作
 

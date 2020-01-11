@@ -7,6 +7,7 @@ tags: ["Java", "Spring Boot"]
 ---
 
 最近在使用Spring Boot重写一个系统，因为是前后端分离，所以后端都通过Restful接口对外提供服务，
+<!--more-->
 在完成了基本的设计后，通过配置一个拦截器，在Response Body写入前统一返回体的格式。
 ```java
 @EnableWebMvc

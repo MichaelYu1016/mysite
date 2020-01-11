@@ -4,10 +4,11 @@ author: "Yu Nongxin"
 date: 2019-05-16
 categories: ["Programming"]
 tags: ["CentOS","git","python"]
-banner: "banners/CentOS.jpg"
+thumbnailImagePosition: left
+thumbnailImage: "banners/CentOS.jpg"
 ---
 项目开始后,需要有一个统一的代码仓库,同时还要有一个开发服务器.从阿里云申请了一台服务器,将测试环境和git仓库都放在该服务器上.
-
+<!--more-->
 ## 建立用户组和用户
 首先通过ssh连接到服务器,由于是通过root进入的,所以先建立一个dev用户和一个git用户,同时建立dev和git用户组.
 ```bash

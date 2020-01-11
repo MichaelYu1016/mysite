@@ -4,9 +4,10 @@ author: "Yu Nongxin"
 date: 2019-01-25
 categories: ["Programming"]
 tags: ["爬虫","Scrapy"]
-banner: "banners/scrapy.jpg"
+thumbnailImagePosition: left
+thumbnailImage: "banners/scrapy.jpg"
 ---
-
+<!--more-->
 从前自己鼓捣爬虫的目的都是为了抓取一些数据，尤其是股票数据，因为没有涉及到太复杂的网页，所以自己简单写写就能把东西抓取下来。这次因为工作需要，开始了解一下常用的爬虫框架，首先就想到了Scrapy。说干就干，在使用`pip install scrapy`后，发现在安装Twisted库时报错了，这就有问题了，赶紧百度一下，发现大家的解决方法就是下载.whl文件安装，推荐上[UCI的python库](https://www.lfd.uci.edu/~gohlke/pythonlibs/)找合适的版本。本地安装好Twisted库后，在安装Scrapy库，一切就那么简单。在终端上输入
 ```
 scrapy -h

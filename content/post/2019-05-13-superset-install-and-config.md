@@ -4,9 +4,11 @@ author: "Yu Nongxin"
 date: 2019-05-13
 categories: ["Programming"]
 tags: ["Superset","python"]
-banner: "banners/superset.png"
+thumbnailImagePosition: left
+thumbnailImage: "banners/superset.png"
 ---
 最近公司需要开发一个报表系统,时间和人力都比较吃紧,最后选择了使用superset作为实现的工具.
+<!--more-->
 ## 安装superset注意事项
 安装superset按照[官方文档](http://superset.apache.org/installation.html)进行操作,但是在具体操作过程中会遇到一些问题,本人在windows下的WSL中进行安装.
 - python版本3.6
