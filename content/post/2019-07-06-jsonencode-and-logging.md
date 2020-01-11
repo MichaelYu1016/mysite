@@ -5,6 +5,7 @@ date: "2019-07-06"
 categories: ["Programming"]
 tags: ["python","log","json"]
 ---
+
 最近在研究Flask项目时碰到了一些问题，一个是Decimal类型不能Json序列化，一个是如何控制日志的输出。
 <!--more-->
 

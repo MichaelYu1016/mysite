@@ -7,7 +7,9 @@ tags: ["python","Flask"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/flask.jpg"
 ---
+
 <!--more-->
+
 ## 前言
 在使用开源项目进行二次开发的时候，大部分依赖库都由前辈们配置完成，不需要我们考虑太多。当自己开始从零写一个项目时，就会发现有很多东西需要去考虑。如果使用Django框架，大部分工具都集成好了，可以减少很多麻烦，但是会出现功能冗余的情况。而使用Flask则相对灵活，对应的就是需要自己配置需要的第三方库。本文主要介绍在Flask框架下使用Flask-Migrate进行数据库迁移。
 

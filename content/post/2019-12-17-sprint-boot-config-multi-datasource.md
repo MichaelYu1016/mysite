@@ -7,9 +7,10 @@ tags: ["Java", "Spring Boot"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/mysql.png"
 ---
-<!--more-->
+
 通常使用spring boot创建一个项目都是使用单一数据源，但是有些时候我们会需要配置多个数据源来满足不同的需求。目前针对自定义查询较多的情况，一般会选择使用
 Mybatis作为数据库操作框架。本文以Mybatis为例介绍如何在Spring boot中配置多个数据源。
+<!--more-->
 
 ## 准备工作
 

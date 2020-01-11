@@ -4,8 +4,9 @@ author: "Frida Gomam"
 date: 2015-07-23T21:13:14-05:00
 categories: ["Programming"]
 tags: ["R Markdown", "plot", "regression"]
+summary: "如何使用R markdown"
 ---
-<!--more-->
+
 # R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
