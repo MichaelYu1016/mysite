@@ -13,7 +13,7 @@ summary: "Docker的一些基本使用方法"
 
 最近随着公司发展的需要，开始学习Java，特别是在开发Web项目使用的主流框架Spring。在学习过程中，使用到了一些应用，其中Docker是一个目前非常流行的用来辅助开发的程序。它能够快速的搭建起开发所需要的环境，并且不受主机环境的影响。作为第一次接触Docker的小白，首先自然是看过教程后再度娘上再搜索一番，注册一个Docker账号之后，下载Docker Desktop。
 
-要在Windows上运行Docker，首先需要开启BIOS中的虚拟化，在打开Hype-V。然后按照Docker，启动。Docker启动之后，简单配置一下Docker的下载镜像源(https://9cok3rbr.mirror.aliyuncs.com)，配置一下挂载的硬盘，这些都能够在度娘上查到，就不一一赘述了。
+要在Windows上运行Docker，首先需要开启BIOS中的虚拟化，在打开Hype-V。然后按照Docker，启动。Docker启动之后，简单配置一下Docker的下载镜像源`https://9cok3rbr.mirror.aliyuncs.com`，配置一下挂载的硬盘，这些都能够在度娘上查到，就不一一赘述了。
 
 # 使用
 
