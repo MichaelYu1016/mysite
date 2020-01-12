@@ -5,7 +5,7 @@ date: "2019-10-24"
 categories: ["Programming"]
 tags: ["Java", "Spring Boot"]
 thumbnailImagePosition: left
-thumbnailImage: "banners/swagger.png"
+thumbnailImage: "banners/swagger.jpg"
 ---
 
 在spring boot中使用swagger 2可以通过官方提供的Swagger 2和Swagger UI包来实现。

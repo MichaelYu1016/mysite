@@ -5,7 +5,7 @@ date: "2019-12-17"
 categories: ["Programming"]
 tags: ["Java", "Spring Boot"]
 thumbnailImagePosition: left
-thumbnailImage: "banners/mysql.png"
+thumbnailImage: "banners/mysql.jpg"
 ---
 
 通常使用spring boot创建一个项目都是使用单一数据源，但是有些时候我们会需要配置多个数据源来满足不同的需求。目前针对自定义查询较多的情况，一般会选择使用

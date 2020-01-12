@@ -5,7 +5,7 @@ date: 2019-05-16
 categories: ["Programming"]
 tags: ["CentOS","git","python"]
 thumbnailImagePosition: left
-thumbnailImage: "banners/CentOS.jpg"
+thumbnailImage: "banners/centos.jpg"
 ---
 
 项目开始后,需要有一个统一的代码仓库,同时还要有一个开发服务器.从阿里云申请了一台服务器,将测试环境和git仓库都放在该服务器上.

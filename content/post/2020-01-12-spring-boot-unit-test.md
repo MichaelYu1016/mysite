@@ -5,6 +5,7 @@ date: "2020-01-12"
 categories: ["Programming"]
 tags: ["Spring Boot","Java","Unit Test"]
 slug: "spring-boot-unit-test"
+thumbnailImage: "banners/spring.jpg"
 ---
 单元测试是我们修改代码时能够正确实现需要功能的保证，在TDD开发中第一件事就是写好单元测试，在进行具体方法代码的编写，所以写好单元测试对开发者来说是一项非常重要的技能。
 <!--more-->

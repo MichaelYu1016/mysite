@@ -5,7 +5,7 @@ date: 2019-06-10
 categories: ["Programming"]
 tags: ["MySQL"]
 thumbnailImagePosition: left
-thumbnailImage: "banners/mysql.png"
+thumbnailImage: "banners/mysql.jpg"
 summary: "安装MySQL5.7踩过的坑"
 ---
 

@@ -4,6 +4,7 @@ author: "Yu Nongxin"
 date: "2019-09-07"
 categories: ["Programming"]
 tags: ["Java", "Spring Boot"]
+thumbnailImage: "banners/spring.jpg"
 ---
 
 最近在使用Spring Boot重写一个系统，因为是前后端分离，所以后端都通过Restful接口对外提供服务，

@@ -5,6 +5,7 @@ date: 2017-11-03
 slug: logistic-regression-in-r
 categories: ["Machine Learning"]
 tags: ["R","Logistic Regression"]
+thumbnailImage: "banners/default.jpg"
 ---
 
 在统计学习和机器学习中，logistic回归是应用最广泛的一种分类方法，其模型通常针对二分类问题，并且具有较好的解释能力。logistic回归模型可以有条件概率分布$P(Y|X)$表示，此时随机变量$X$取值为实数，随机变量$Y$取值为1或0.我们可以通过监督学校的方法来估计模型参数。
