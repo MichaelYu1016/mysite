@@ -159,7 +159,7 @@ public class MapApiReader implements ParameterBuilderPlugin {
     @Autowired
     private TypeResolver typeResolver;
 
-    private final static String basePackage = "com.example.swagger.model.";  //动态生成的Class名
+    private static final String basePackage = "com.example.swagger.model.";  //动态生成的Class名
 
     @Override
     public void apply(ParameterContext parameterContext) {
