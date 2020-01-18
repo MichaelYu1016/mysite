@@ -208,12 +208,13 @@ public class User implements Serializable {
 ```
 
 Jackson包中可使用的命名策略有5种，
-策略|示例
-:--:|:--:
-*LOWER_CAMEL_CASE(default)* | `userName`
-*KEBAB_CASE* | `user-name`
-*LOWER_CASE* | `username`
-*SNAKE_CASE* | `user_name`
-*UPPER_CAMEL_CASE* | `UserName`
+
+|策略|示例|
+|:--:|:--:|
+|*LOWER_CAMEL_CASE(default)* | `userName`|
+|*KEBAB_CASE* | `user-name`|
+|*LOWER_CASE* | `username`|
+|*SNAKE_CASE* | `user_name`|
+|*UPPER_CAMEL_CASE* | `UserName`|
 
 在使用Jackson包进行json处理时，还可以通过注解来实现很多事情，了解更多可以戳[这里](https://www.baeldung.com/jackson)。
