@@ -3,7 +3,7 @@ title: "Python虚拟环境和包管理工具——Pipenv"
 author: "Yu Nongxin"
 date: 2019-06-23
 categories: ["Programming"]
-tags: ["packaging tool","python"]
+tags: ["packaging tool","Python"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/python.jpg"
 summary: "使用pipenv搭建一个python项目"

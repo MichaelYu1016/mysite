@@ -3,7 +3,7 @@ title: "常用R包整理（持续更新）"
 author: "Yu Nongxin"
 date: 2017-10-01
 categories: ["Programming"]
-tags: ["R package"]
+tags: ["R"]
 thumbnailImage: "banners/default.jpg"
 ---
 

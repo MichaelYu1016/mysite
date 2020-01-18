@@ -5,7 +5,7 @@ date: 2017-10-03
 thumbnailImagePosition: left
 thumbnailImage: "banners/website.jpg"
 categories: ["Programming"]
-tags: ["R package","hugo"]
+tags: ["R","Hugo"]
 ---
 
 谢易辉在bookdown的基础上又推出了blogdown拓展包，提供了一套以hugo为基础的个人主页搭建方式，将网站托管在netlify上，关联GitHub库后可以实现自动更新网站。按照[blogdown](https://bookdown.org/yihui/blogdown/)的说明文档，我重新搭建了自己的个人主页。

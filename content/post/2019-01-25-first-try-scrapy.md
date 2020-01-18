@@ -3,7 +3,7 @@ title: "使用Scrapy库爬取网页初体验"
 author: "Yu Nongxin"
 date: 2019-01-25
 categories: ["Programming"]
-tags: ["爬虫","Scrapy"]
+tags: ["Python","爬虫","Scrapy"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/scrapy.jpg"
 summary: "如何快速上手Scrapy库"

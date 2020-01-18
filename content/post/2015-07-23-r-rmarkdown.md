@@ -3,7 +3,7 @@ title: "Hello R Markdown"
 author: "Frida Gomam"
 date: 2015-07-23T21:13:14-05:00
 categories: ["Programming"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["R","R Markdown"]
 thumbnailImage: "banners/default.jpg"
 summary: "如何使用R markdown"
 ---

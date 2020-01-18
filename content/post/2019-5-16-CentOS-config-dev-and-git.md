@@ -3,7 +3,7 @@ title: "CentOS配置git仓库和开发环境"
 author: "Yu Nongxin"
 date: 2019-05-16
 categories: ["Programming"]
-tags: ["CentOS","git","python"]
+tags: ["CentOS","Git","Python"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/centos.jpg"
 ---

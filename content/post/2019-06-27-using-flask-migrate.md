@@ -3,7 +3,7 @@ title: "使用Flask-Migrate包进行数据库迁移"
 author: "Yu Nongxin"
 date: "2019-06-27"
 categories: ["Programming"]
-tags: ["python","Flask"]
+tags: ["Python","Flask"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/flask.jpg"
 summary: "Flask-Migrate快速上手"

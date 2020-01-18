@@ -3,7 +3,7 @@ title: "Superset安装和部署"
 author: "Yu Nongxin"
 date: 2019-05-13
 categories: ["Programming"]
-tags: ["Superset","python"]
+tags: ["Superset","Python"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/default2.jpg"
 ---

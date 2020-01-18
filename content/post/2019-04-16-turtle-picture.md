@@ -3,7 +3,7 @@ title: "使用turtle库画图"
 author: "Yu Nongxin"
 date: 2019-04-16
 categories: ["Programming"]
-tags: ["turtle"]
+tags: ["Python","turtle"]
 thumbnailImagePosition: left
 thumbnailImage: "banners/turtle.png"
 ---

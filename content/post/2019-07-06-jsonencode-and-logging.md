@@ -3,7 +3,7 @@ title: "Json序列化和日志处理"
 author: "Yu Nongxin"
 date: "2019-07-06"
 categories: ["Programming"]
-tags: ["python","log","json"]
+tags: ["Python","log","json"]
 thumbnailImage: "banners/default.jpg"
 ---
 
