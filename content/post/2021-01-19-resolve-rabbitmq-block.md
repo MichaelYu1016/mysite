@@ -2,8 +2,8 @@
 title: "RabbitMQ阻塞的处理"
 author: "Yu Nongxin"
 date: "2021-01-19"
-categories: ["生活"]
-tags: ["总结"]
+categories: ["Programming"]
+tags: ["RabbitMQ"]
 slug: "resolve-rabbitmq-block"
 thumbnailImagePosition: left
 thumbnailImage: "banners/rabbitmq.jpg"
