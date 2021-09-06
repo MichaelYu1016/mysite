@@ -5,7 +5,7 @@ date: "2019-10-05"
 categories: ["生活"]
 tags: ["旅行"]
 thumbnailImagePosition: left
-coverImage: "banners/nanjing.jpg"
+coverImage: "https://ynx-oss.oss-cn-beijing.aliyuncs.com/images/nanjing-2021-09-06.jpg"
 coversize: partial
 ---
 
