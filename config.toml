@@ -39,7 +39,7 @@ canonifyurls = true
   # gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "images/avatar.jpg"
+  picture = "https://ynx-oss.oss-cn-beijing.aliyuncs.com/images/avatar.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -158,7 +158,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  favicon = "/favicon.ico"
+  favicon = "https://ynx-oss.oss-cn-beijing.aliyuncs.com/images/favicon.ico"
 
   # Header configuration
   # The link at the right of the header is customizable
