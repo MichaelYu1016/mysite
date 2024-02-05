@@ -15,6 +15,7 @@ thumbnailImage: "banners/ssh.jpg"
 ## 基本情况
 
 服务器操作系统为CentOS7.6，OpenSSH和OpenSSL都是操作系统自带，通过yum无法跨版本升级，因此只能通过安装包进行升级。
+
 ||当前版本|升级版本|
 |:---:|:---:|:---:|
 |OpenSSL|1.0.2k-fips|3.0.12|
